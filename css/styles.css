@@ -7208,6 +7208,7 @@ textarea.form-control-lg {
 .d-flex {
   display: flex !important;
   flex: 1;
+  min-height: 200px;
 }
 
 .d-inline-flex {
