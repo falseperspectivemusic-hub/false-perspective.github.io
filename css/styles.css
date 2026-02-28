@@ -198,7 +198,7 @@ p {
 }
 
 .spotify-embed { display: flex; justify-content: center; } 
-.spotify-embed iframe { max-width: 200px; /* or whatever size you want */ width: 100%; }
+.spotify-embed iframe { max-width: 450px; /* or whatever size you want */ width: 100%; }
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
