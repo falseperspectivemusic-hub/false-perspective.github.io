@@ -531,6 +531,8 @@ progress {
   }
 }
 
+@media (min-width: 992px) { /* only on large screens */ .row { align-items: stretch; } .col-lg-6 { display: flex; } }
+
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
@@ -716,6 +718,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  align-items: stretch;
 }
 .row > * {
   flex-shrink: 0;
@@ -1331,7 +1334,7 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
-    
+    display: flex;
   }
 
   .col-lg-7 {
