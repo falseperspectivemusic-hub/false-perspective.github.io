@@ -197,12 +197,10 @@ p {
   margin-bottom: 1rem;
 }
 
-.spotify-embed iframe 
-{ max-width: 450px; 
- width: 100%; 
- margin: 0 auto; 
- display: block; 
-}
+.spotify-embed iframe { flex: 0 0 auto;
+                       max-width: 200px; /* or whatever size matches your blue embed */ 
+                       width: 100%; 
+                       margin: 0 auto; }
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
