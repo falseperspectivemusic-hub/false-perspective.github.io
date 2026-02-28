@@ -197,8 +197,13 @@ p {
   margin-bottom: 1rem;
 }
 
-.spotify-embed { display: flex; justify-content: center; } 
-.spotify-embed iframe { max-width: 450px; /* or whatever size you want */ width: 100%; }
+.spotify-embed { 
+                max-width: 350px; /* choose the width you want both embeds to have */ 
+                width: 100%; 
+                margin: 0 auto; /* centers the whole block inside the column */ 
+                display: flex; justify-content: center; } 
+.spotify-embed iframe { 
+  width: 100%; /* iframe fills the constrained container */ }
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
