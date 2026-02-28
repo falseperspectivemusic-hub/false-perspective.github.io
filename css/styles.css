@@ -197,6 +197,12 @@ p {
   margin-bottom: 1rem;
 }
 
+.spotify-embed {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
