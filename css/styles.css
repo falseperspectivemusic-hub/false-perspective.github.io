@@ -197,10 +197,6 @@ p {
   margin-bottom: 1rem;
 }
 
-.spotify-embed { max-width: 352px; /* Spotify’s natural embed width */ width: 100%; margin: auto; /* centers vertically AND horizontally */ display: flex; align-items: center; justify-content: center; }
-.spotify-embed iframe { 
-  width: 100%; /* iframe fills the constrained container */ }
-
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
